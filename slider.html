@@ -1,0 +1,41 @@
+<!Doctype html>
+<!--
+https://dev7studios.com/products/nivo-slider-wordpress-plugin/
+https://github.com/gilbitron/Nivo-Slider
+-->
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Nivo Slider</title>
+
+<!--Nivo Slider Start-->
+<link rel="stylesheet" href="nivo-themes/default.css" media="screen">
+<link rel="stylesheet" href="nivo-css/nivo-slider.css" media="screen">
+<!--Nivo Slider End-->
+    </head>
+    
+    <body>
+<!--Nivo Slider Start-->
+<div class="slider-wrapper theme-default">
+    <div id="slider" class="nivoSlider">
+        <img src="nivo-images/s01.jpg" data-thumb="images/s01.jpg" alt="" title="huhn1">
+        <img src="nivo-images/s02.jpg" data-thumb="images/s02.jpg" alt="" title="huhn2">
+        <img src="nivo-images/s03.jpg" data-thumb="images/s03.jpg" alt="" data-transition="slideLeft" title="huhn3">
+    </div>
+</div>
+<!--Nivo Slider End-->
+
+
+<!--Nivo Slider Start - pomestitj v samyj niz documenta-->
+<script src="nivo-scripts/jquery-1.9.0 min.js"></script>
+<script src="nivo-scripts/jquery.nivo.slider.js"></script>
+<script>
+    $(window).load(function(){
+        $('#slider').nivoSlider();
+    });
+</script>
+<!--Nivo Slider End-->
+
+    </body>
+</html>

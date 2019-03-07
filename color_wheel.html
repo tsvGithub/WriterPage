@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Color wheel</title>
+<style>
+.color_wheel{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    height: 90vh;
+}
+[class^="green"],
+[class^="orred"]{
+    /* width: 150px; */
+    width: 1fr;
+    /* height: 150px; */
+    height: 1fr;
+    color: aliceblue;
+    font-size: 5rem;
+
+}
+.green5{
+    background-color: #479A81;
+    color: #F4FDFA;
+}
+.green4{
+    background-color: #72BAA4;
+    color: #D0EFE6;
+}
+.green3{
+    background-color: #A2D9C8;
+    color: #D0EFE6;
+}
+.green2{
+    background-color: #D0EFE6;
+    color: #72BAA4;
+}
+.green1{
+    background-color: #F4FDFA;
+    color: #479A81;
+    text-shadow: 4px 4px 7px #A2D9C8;
+}
+.orred1{
+    background-color: #FFF9F7;
+    color: #E9986C;
+    text-shadow: 4px 4px 7px #FFBF9C;
+}
+.orred2{
+    background-color: #FFE9DE;
+    color: #FFBF9C;
+}
+.orred3{
+    background-color: #FFD5BF;
+    color: #FFBF9C;
+}
+
+.orred4{
+    background-color: #FFBF9C;
+    color:  #FFE9DE;
+}
+.orred5{
+    background-color: #E9986C;
+    color: #FFF9F7;
+    text-shadow: 4px 4px 7px #FFE9DE;
+}
+
+</style>
+</head>
+<body>
+    
+    <div class="color_wheel">
+        <div class="green1">1</div>
+        <div class="green2">2</div>
+        <div class="green3">3</div>
+        <div class="green4">4</div>
+        <div class="green5">5</div>
+        <div class="orred1">1</div>
+        <div class="orred2">2</div>
+        <div class="orred3">3</div>
+        <div class="orred4">4</div>
+        <div class="orred5">5</div>
+    </div>
+</body>
+</html>
